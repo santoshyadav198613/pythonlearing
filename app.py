@@ -13,5 +13,14 @@ print('*' * 10)
 # weight_kg = int(weight_pounds) * 0.45
 # print(weight_kg)
 
-name = 'Jennifer'
-print(name[1:-1])
+# name = 'Jennifer'
+# print(name[1:-1])
+
+title = 'Python basics'
+print(len(title))
+print(title.upper())
+print(title.lower())
+print(title.find('P'))
+print(title.replace('basics', 'Advanced'))
+
+print('Python' in title)
